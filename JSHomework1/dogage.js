@@ -12,4 +12,4 @@ if (shouldShowResultsInDogYears == true) {
     console.log(dogYear);
 } else {
     console.log(humanYear);
-}
+};
