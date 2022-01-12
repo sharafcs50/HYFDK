@@ -65,3 +65,20 @@ console.log(max);
 
 minmax(myMaxArray);
 
+
+// RUNNING FOR LOOP ON AN ARRAY OF OBJECTS.
+const myObject = [ {price: 30}, {price:460}, {price:50}]
+console.log(myObject[0].price);
+function greatObject (array) {
+    let max = 0
+
+    for (i=0;i<array.length;i++) {
+        if (array[i].price > max) {
+            max = array[i].price;
+        }
+      }
+      console.log(max);
+    return max
+}
+
+greatObject(myObject);
