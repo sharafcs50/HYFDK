@@ -14,3 +14,54 @@ function stingify(stringToLog,numberOfTimesToLog) {
     }
 }
 stingify("sharaf is typing",13);
+
+
+// Exercise Class 4 - Find Highest Number (shopping list)
+
+// 1) Array:
+
+let myMaxArray = [134,45,58,20,48];
+
+function findMax (array){
+    let max = 0;
+    let a = array.length;
+    for (i=0;i<a;i++){
+        if(array[i] > max)
+            {
+                max = array[i];
+            }
+    }
+    return max
+}
+console.log(findMax(myMaxArray));
+
+function findMin (array) {
+    let min = array[0]; // important to set first value of array.
+    for (i=0;i<array.length;i++){
+        if (array[i]<min) {
+            min = array[i];
+        }
+    }
+    return min
+}
+console.log(findMin(myMaxArray));
+
+
+function minmax (array) {
+let max = 0;
+let min = array[0];
+
+for (i=0;i<array.length;i++){
+    if (array[i]>max) {
+        max = array[i];
+    } else if (array[i]<min) {
+        min = array[i];
+    }
+}
+console.log(min);
+console.log(max);
+
+}
+
+minmax(myMaxArray);
+
