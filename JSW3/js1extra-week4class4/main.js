@@ -15,6 +15,7 @@ newButton.addEventListener("click", function(){
     var newLi = document.createElement('li');
     newLi.textContent = myFriends[i];
     newUl.appendChild(newLi);
+    newButton.remove();
     }
 })
 
