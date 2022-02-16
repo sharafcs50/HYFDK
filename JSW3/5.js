@@ -11,8 +11,8 @@ function addActivity(typedate, typeactivity, typeduration) {
 
 addActivity("May", "Swimming", 4);
 addActivity("23 June", "Driving", 2);
-addActivity("3 July", "Fest", 3);
-addActivity("7 November", "Birthday", 2);
+addActivity("3 July", "Testing 2", 3);
+addActivity("7 November", "Test", 2);
 
 console.log(activity);
 let totalHours = 0;
