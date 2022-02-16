@@ -6,7 +6,6 @@ console.log(myFriends);
 var form = document.getElementById("form");
 var newButton = document.getElementById("newButton");
 var newUl = document.createElement('ul');
-var number = 0;
 
 newUl.id = "formList";
 form.appendChild(newUl);
