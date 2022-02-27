@@ -65,4 +65,11 @@ const danishCars = cars.map(function(cars){
     return danishCar;
 })
 
+// METHOD 2:
+    // return {
+    //     maerke: cars.make,
+    //     fart: cars.speed,
+    //     farve: cars.color,
+    // }
+
 console.log(danishCars);
